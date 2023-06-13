@@ -1,0 +1,151 @@
+:root {
+    --branco: #fff; 
+    --cinza: #e8e6e7;
+    --destaques: #f5f2ed;
+    --texto-principal: #3c3c3c;
+    --sombra: #d6ccbf;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--background);
+    color: var(--texto-principal);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--destaques);;
+    padding: 10px;
+
+}
+
+.header__bar {
+    align-items: center;
+    background: linear-gradient(189deg, rgba(156,131,197,1) 23%, rgba(0,212,255,1) 100%);
+    box-sizing: border-box;
+    display: flex;
+    height: 70px;
+    padding: 1rem;
+    justify-content: space-between;    
+}
+
+.header__icon__title{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 70px;
+}
+
+
+
+
+.header__title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: var(--branco);
+    margin-left: 10px;
+}
+
+.menu__lista {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    
+}
+
+.apresentacao {
+    background-color: var(--cinza);
+    margin-top: 0px;
+    padding: 2.125rem;
+    display: flex;
+    align-items: center;
+    gap: 2.125rem;
+}
+
+.foto__perfil {
+    width: 25rem;
+    border-radius: 50%;
+}
+
+.sobre__mim--titulo {
+    padding-left: 2.125rem;
+}
+
+.sobre__mim p {
+    padding-left: 2.125rem;
+    padding-right: 2.125rem;
+}
+
+.skills--titulo {
+    padding-left: 2.125rem;
+    color: var(--texto-principal);
+}
+
+.skills--cards{
+    display: flex;
+    justify-content: center;
+}
+
+.skills--card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(189deg, rgba(156,131,197,1) 23%, rgba(0,212,255,1) 100%);
+    color: var(--branco);
+    border-radius: 10px;
+    width: 7rem;
+    height: 7rem;
+    margin: 5px;
+    transition: 1s;
+}
+
+.skills--card:hover{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(156,131,197,1) 23%);
+}
+
+.hobbies--titulo {
+    padding-left: 2.125rem;
+    color: var(--texto-principal);
+    align-items: center;
+}
+
+.hobbies__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(189deg, rgba(156,131,197,1) 23%, rgba(0,212,255,1) 100%);
+    color: var(--branco);
+    border-radius: 10px;
+    width: 7rem;
+    height: 7rem;
+    margin: 5px;
+    transition: 1s;
+}
+
+.hobbies__card:hover {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(156,131,197,1) 23%);
+}
+
+.formacao {
+    
+}
+
+
