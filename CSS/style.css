@@ -68,6 +68,7 @@ a:hover {
     margin-top: 0px;
     padding: 2.125rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 2.125rem;
 }
@@ -78,6 +79,8 @@ a:hover {
 }
 
 .sobre__mim--titulo {
+    display: flex;
+    justify-content: center;
     padding-left: 2.125rem;
 }
 
@@ -86,7 +89,14 @@ a:hover {
     padding-right: 2.125rem;
 }
 
+.skills__hobbies {
+    background-color: var(--cinza);
+    padding: 5px 2.125rem 2.125rem 5px;
+}
+
 .skills--titulo {
+    display: flex;
+    justify-content: center;
     padding-left: 2.125rem;
     color: var(--texto-principal);
 }
@@ -116,8 +126,10 @@ a:hover {
 
 .hobbies--titulo {
     padding-left: 2.125rem;
+    display: flex;
+    justify-content: center;
     color: var(--texto-principal);
-    align-items: center;
+
 }
 
 .hobbies__cards {
@@ -144,8 +156,11 @@ a:hover {
     background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(156,131,197,1) 23%);
 }
 
-.formacao {
-    
+.formacao__titulo {
+    padding-left: 2.125rem;
+    display: flex;
+    justify-content: center;
+    color: var(--texto-principal);
 }
 
 
