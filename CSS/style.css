@@ -156,11 +156,50 @@ a:hover {
     background: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(156,131,197,1) 23%);
 }
 
+.formacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.formacao__card--boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
 .formacao__titulo {
     padding-left: 2.125rem;
     display: flex;
     justify-content: center;
     color: var(--texto-principal);
+}
+
+.formacao__card {  
+    display: flex;
+    flex-direction: column;    
+}
+
+.formacao__card--box {
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid rgba(156,131,197,1);
+    border-radius: 15px;
+
+}
+
+.formacao__card img {
+    width: 100px;
+    box-sizing: border-box;
 }
 
 
