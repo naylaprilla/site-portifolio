@@ -23,10 +23,10 @@
             <ul class="menu__lista">
                 <li class="menu__lista--item"><a class="menu__lista--link" href="#sobre-mim">Sobre mim</a></li>
                 <li class="menu__lista--item"><a class="menu__lista--link" href="#skills">Skills</a></li>
-                <li class="menu__lista--item"><a class="menu__lista--link" href="#">Hobbies</a></li>
-                <li class="menu__lista--item"><a class="menu__lista--link" href="#">Formação</a></li>
-                <li class="menu__lista--item"><a class="menu__lista--link" href="#">Projetos</a></li>
-                <li class="menu__lista--item"><a class="menu__lista--link" href="#mailme">Contatos</a></li>
+                <li class="menu__lista--item"><a class="menu__lista--link" href="#hobbies">Hobbies</a></li>
+                <li class="menu__lista--item"><a class="menu__lista--link" href="#formacao">Formação</a></li>
+                <li class="menu__lista--item"><a class="menu__lista--link" href="#experiencia">Projetos</a></li>
+                <li class="menu__lista--item"><a class="menu__lista--link" href="#contato">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -67,8 +67,8 @@
         </section>
 
         <section class="skills__hobbies">
-            <section class="skills" id="skills">
-            <h2 class="skills--titulo">Skills</h2>
+            <section class="skills">
+            <h2 class="skills--titulo"id="skills">Skills</h2>
             <div class="skills--cards">
                 <div class="skills--card">
                     <i class="fa-brands fa-html5 fa"></i>
@@ -94,7 +94,7 @@
         </section>
 
         <section class="hobbies">
-            <h2 class="hobbies--titulo">Hobbies</h2>
+            <h2 class="hobbies--titulo" id="hobbies">Hobbies</h2>
             <div class="hobbies__cards">
                 <div class="hobbies__card">
                     
@@ -121,64 +121,82 @@
         </section>
         </section>
         
-
         <section class="formacao">
-            <h2 class="formacao__titulo">Formação Acadêmica</h2>
+            <h2 class="formacao__titulo" id="formacao">Formação Acadêmica</h2>
             <div class="formacao__card">
                 <div class="formacao__card--boxes">
                     <div class="formacao__card--box">
-                        <img src="assets/Imagens/etec.png" alt="logo etec">
+                        <img src="assets/Imagens/etec.png" alt="logo da ETEC">
                         <h3>ETEC Escolástica Rosa</h3>
                         <p>Técnico em Administração - 2010</p>
                     </div>
                     <div class="formacao__card--box">
-                        <img src="assets/Imagens/alura.png" alt="logo etec">
-                        <h3>Plataforma Alura de Ensino</h3>
+                        <img src="assets/Imagens/alura.png" alt="logo da Alura">
+                        <h3>Plataforma de Ensino Alura</h3>
                         <p>Desenvolvedor FrontEnd - 2023</p>
                     </div>
-                </div>
-                
+                </div>                
             </div>
-
-
         </section>
 
-        <section>
-            <h2>Experiência Profíssional</h2>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
+        <section class="experiencia">
+            <h2 class="experiencia__titulo" id="experiencia">Experiência Profíssional</h2>
+            <div class="experiencia__cards">
+                <div class="experiencia__card">
+                    <div class="experiencia__logo--titulo">
+                        <img src="assets/Imagens/logo_preto.png" alt="logo agencia de pets secretos, imagem velorial com circulo e as palavras agencia de pets secretos.">
+                        <h3>Desafio Decodificador</h3>  
+                    </div>                    
+                    <p>
+                        Projeto desenvolvido durante o curso do projeto T4 One com a intenção de aprender lógica de programação, 
+                        e desenvolver uma página web com html5, css3 e JavaScript.
+                    </p>
+                    <p>Concluido em: 12/2022</p>
+                    <div class="experiencia__card--button">
+                        <button><a href="https://github.com/naylaprilla/challenge_decodificador-alura-latam" target="_blank">Repositório</a></button>
+                        <button><a href="https://naylaprilla.github.io/challenge_decodificador-alura-latam/" target="_blank">Ver demo</a></button>
+                    </div>                        
+                </div>   
+                <div class="experiencia__card">
+                    <div class="experiencia__logo--titulo">
+                        <img src="assets/Imagens/Organo-react.png" alt="Imagem das casas de hogwarts, escola de magia descrita na serie de livros Harry Potter da autora J.K.Rowling">
+                        <h3>Formulário desenvolvido com React</h3>  
+                    </div>
+                    <p>
+                        Projeto desenvolvido durante o curso do projeto T4 One com a intenção de aprender como criar componentes com react.
+                    </p>
+                    <p>Concluido em: 05/2023</p>
+                    <div class="experiencia__card--button">
+                        <button><a href="https://github.com/naylaprilla/organo-react" target="_blank">Repositório</a></button>
+                        <button><a href="https://organo-react-iic9ex2lh-naylaprilla.vercel.app/" target="_blank">Ver demo</a></button>
+                    </div>                        
+                </div>   
+            </div>           
         </section>  
 
-        <section class="contato">
-            <h2>Contato</h2>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="assunto" placeholder="Assunto">
-                <input type="Mensagem" placeholder="Mensagem"> 
-                <button>Enviar</button>              
-            </form>
+        <section class="contato" id="contato">
+            <div class="contato__box--element"></div>
+            <div class="contato__form">
+                <h2 class="contato__titulo">Contato</h2>
+                <form class="contato__formulario">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <input type="assunto" placeholder="Assunto">
+                    <input class="contato__mensagem" type="text" placeholder="Mensagem"> 
+                    <button class="contato__btn" type="submit">Enviar</button>              
+                </form>
+            </div>          
         </section>
+        <section class="contato__redes">
+            <a href="https://www.instagram.com/prillanart/" target="_blank"><img class="contato__rede" src="assets/Imagens/icon-instagram.png" alt="Logo do Instagram, imagem vetorial que com  formas geometricas remetem a uma camera fotografica analógica."></a>
+            <a href="https://www.youtube.com/channel/UC-s372wl-KA64XsXxKpuY3g" target="_blank"><img class="contato__rede" src="assets/Imagens/icon-youtube.png" alt="logo do youtube, tem a forma de um retângulo com os cantos arredondados e um triângulo que parece uma seta no centro do retângulo."></a>
+            <img class="contato__rede" src="assets/Imagens/icon-behance.png" alt="">
+            <img class="contato__rede" src="assets/Imagens/icon-github.png" alt="">
+        </section>            
     </main>
 
-    <footer>
-        <h4>Desenvolvido por Nayla Prilla</h4>
-        <p>2023</p>
+    <footer class="rodape">
+        <h4>Desenvolvido por Nayla Prilla | 2023</h4>
     </footer>
 
 </body>
